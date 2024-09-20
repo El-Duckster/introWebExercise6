@@ -1,3 +1,3 @@
 export const convertToUpperCase = (text) => {
-    return text.toUpperCase();
+    return text.toUpperCase() ;
 };

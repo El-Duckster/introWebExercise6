@@ -1,24 +1,25 @@
-# introWebExercise6
-Exercise#6 (JEST )for Lernia yrkeshögskola
+# Introduction to Web Development - Exercise 6
 
-Inlämningsuppgift
-Under lektion 14 använder vi ramverket Jest för att skapa enkla unit-tester av vår kod.
+## Project Overview
 
- 
+This project is a requirement for passing an assignment at Lernia Yrkeshögskola, its web application that takes user input and converts the text to uppercase letters. The conversion is handled by a JavaScript function, and unit tests are used to verify the functionality. The project uses **Jest** as the testing framework to ensure code correctness and maintainability.
 
-För att få G
+## Features
 
-Nämn minst två annat testramverk för JavaScript som kan användas för unit-tester.
-Lägg även in länk till ramverkets hemsida eller en artikel som beskriver ramverket.
-Förklara med ca 500 tecken vad metoden Testdriven utveckling (TDD) innebär.
-Ange gärna källa där du hittade underlaget för din förklaring.
- 
-För att få VG
+- Input text is converted to uppercase letters.
+- The result is displayed in the console and on the webpage.
+- Unit tests are implemented to ensure the correctness of the `convertToUpperCase` function.
 
-Skapa en enkel webbapplikation där det finns en JavaScript-funktion som ändrar en text i en textinput till VERSALER och skriver ut resultatet i console.log.
+## Technologies Used
 
-Använd Jest för att skapa en unit-test som kontrollerar att funktionen omvandlar text till VERSALER.
+- **HTML5**: For structuring the web page.
+- **JavaScript**: The core functionality to manipulate the text input.
+- **Jest**: Testing framework for running unit tests.
+- **Babel**: For transpiling ES modules to work with Jest.
 
- 
+# to start the testing:
 
-För att få VG måste koden lämnas in som en länk till ett Github-repo och testet startas med kommandot npm run test.
+- use npm run test
+
+# Author:
+[Elena Lehto Fredenbrink]

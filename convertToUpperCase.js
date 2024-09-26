@@ -1,3 +1,6 @@
 export const convertToUpperCase = (text) => {
-    return text.toUpperCase() ;
+    if (typeof text !== 'string') {
+        throw new TypeError('Expected a string as input');
+    }
+    return text.toUpperCase();
 };

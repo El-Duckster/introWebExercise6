@@ -24,4 +24,7 @@ describe('convertToUpperCase', () => {
     const result = convertToUpperCase(inputText);
     expect(result).toBe('');
   });
+  test('throws an error if input is not a string', () => {
+    expect(() => convertToUpperCase(123)).toThrow('Input must be a string');
+});
 });
